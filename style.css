@@ -1,0 +1,38 @@
+#show {
+    display: none;
+}
+
+#fadeIn {
+    display: none;
+}
+
+.yoko {
+    display: flex;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 12px 80px;
+    background-color: #5dca88;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 5px #279C56;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.btn:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.btn_2 {
+    background-color: #009688;
+    box-shadow: 0px 5px #01332f;
+}
+
+#m_text{
+    display: none;
+}

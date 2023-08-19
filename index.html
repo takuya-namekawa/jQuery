@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div id="main_wrapper">
+        <h1 id="m_title">hoverイベントに関して</h1>
+        
+        <p id="m_text">hoverを学習しています。マウスオーバーでアクションされるよ！</p>
+    </div>
+    
+    <!-- "find findメソッドは、すべての子孫要素(自分よりも下の階層の要素すべて）の中から、指定したセレクタを持つ要素を取得したいときに用います。下図の例では、<div id="wrapper">から</div>の中にあるすべての<a>要素を取得-->
+    <div id="find" class="btn">findメソッド</div>
+    
+    <!-- "children childrenメソッドは、指定したセレクタが持つ子要素（一階層だけ下）の中から指定したセレクタに合致した要素を取得したいときに用います。下の例では<div id="wrapper">の子要素は<a>タグと<p>タグが1つずつなので、<a>タグが1つ取得-->
+    <div id="children" class="btn">childrenメソッド</div>
+    <br>
+    <br>
+    
+    <div id="wrapper">
+        <a href="#">リンク1</a>
+        <div>
+        <a href="#">リンク2</a>
+        </div>
+    </div>
+    
+    
+    <ul>
+        <li class="list-item">リスト1</li>
+        <li class="list-item">リスト2</li>
+        <li class="list-item">リスト3</li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    <div id="btn_text_2" class="btn btn_2">テキストを書き換える</div>
+    <div id="btn_html" class="btn btn_2">htmlを書き換える</div>
+    <p id="text_2">今日の気分は?</p>
+    <br>
+    <br>
+    <br>
+    
+    <div id="btn_text" class="btn">クリックイベント</div>
+    <p id="text">コレを隠すよ！</p>
+    <br>
+    <br>
+    <br>
+    
+    <div id="btn_css" class="btn">クリックイベント</div>
+    <p id="css_text">cssを変えるよ！</p>
+    <br>
+    <br>
+    <br>
+    
+    <div class="box">
+        <img id="show" src="img/person.jpg"></img>
+        <div id="fadeIn">出現するアニメーション</div>
+    </div>
+    
+    <div class="yoko">
+    <h1>Hello,World</h1>
+    
+    <figure id="img_1">
+        <p>スライドアップ</p>
+        <img src="img/sakura.jpg"></img>
+    </figure>
+    
+    
+    <figure id="img_2">
+        <p>フェードアウト</p>
+        <img src="img/sakura.jpg"></img>
+    </figure>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
